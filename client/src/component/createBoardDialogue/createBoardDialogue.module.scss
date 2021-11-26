@@ -1,0 +1,33 @@
+// .cardContainer{
+//     margin: 0 2% 2% 0;
+// }
+.input{
+    margin-right: 40px;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    &:focus{
+        background-color: #ffffff6b;
+    }
+    &:hover{
+        background-color: #7c7c7c73;
+    }
+    &::placeholder{
+        color: rgba(255, 255, 255, 0.474);
+    }
+}
+.dialogueContainer{
+    color: white;
+}
+.dialogueContent{
+    background-color: #0079bf;
+    border-radius: 3px;
+}
+.dialogueAction{
+    padding-top: 8px;   
+}

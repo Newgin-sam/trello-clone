@@ -1,0 +1,53 @@
+
+.container{
+    display: flex;
+    // background-color: aqua;
+    min-height: 100vh;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+}
+.dashnav{
+    margin: 40px 0 0;
+    padding: 0 16px;
+    width: 240px;
+    // background-color: gray;
+}
+.workspace{
+    margin: 40px 16px 0;
+    max-width: 825px;
+    min-width: 288px;
+    width: 100%;
+}
+.stack{
+    // background-color: transparent;
+}
+
+.list{
+    justify-content: left !important;
+    color: black !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    &:hover{
+        background-color: #091e4214 !important;
+    }
+
+    &_active{
+        color: #0079BF !important;
+        background-color: #E4F0F6 !important;
+        &:hover{
+            color: #0079BF !important;
+            background-color: #E4F0F6 !important;
+        }
+    }
+   
+}
+
+.wklayout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.cardContainer{
+    margin: 0 2% 2% 0;
+}

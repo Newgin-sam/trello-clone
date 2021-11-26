@@ -1,0 +1,17 @@
+.App {
+  /* text-align: center; */
+}
+
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.float-Dialogue{
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+}

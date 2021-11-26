@@ -1,0 +1,58 @@
+.boardLayout{
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 64px);
+}
+.bar{
+    width: 40px;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.419);
+}
+
+.boardContainer{
+    padding: 0;
+    margin: 1.5rem;
+    flex-grow: 1;
+}
+.boardheader{
+    margin: 0;
+}
+.listContainer{
+    display: -webkit-inline-box;
+    height:100%;
+    overflow: auto;
+}
+.icon{
+    margin-right: 1rem;
+}
+.addButton{
+    flex-grow: 1;
+    display: block;
+    &:hover{
+        background-color: #091e4214 !important;
+    }
+}
+.buttonTitle{
+    display: flex;
+    align-items: center;
+    color: #6b778c;
+}
+.actionContainer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.actions{
+    margin-top: 5px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.input{
+    border: 2px solid #1976d2;
+    border-radius: 2px;
+    height: 30px;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+}
